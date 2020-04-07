@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/fuzzylogic/static/css/main.5e69781a.chunk.css",
+    "main.js": "/fuzzylogic/static/js/main.ababa6fa.chunk.js",
+    "main.js.map": "/fuzzylogic/static/js/main.ababa6fa.chunk.js.map",
+    "runtime-main.js": "/fuzzylogic/static/js/runtime-main.4c46f7e4.js",
+    "runtime-main.js.map": "/fuzzylogic/static/js/runtime-main.4c46f7e4.js.map",
+    "static/css/2.de424728.chunk.css": "/fuzzylogic/static/css/2.de424728.chunk.css",
+    "static/js/2.02730113.chunk.js": "/fuzzylogic/static/js/2.02730113.chunk.js",
+    "static/js/2.02730113.chunk.js.map": "/fuzzylogic/static/js/2.02730113.chunk.js.map",
+    "index.html": "/fuzzylogic/index.html",
+    "precache-manifest.b35be17ca4707ee47f925471bcd40fb2.js": "/fuzzylogic/precache-manifest.b35be17ca4707ee47f925471bcd40fb2.js",
+    "service-worker.js": "/fuzzylogic/service-worker.js",
+    "static/css/2.de424728.chunk.css.map": "/fuzzylogic/static/css/2.de424728.chunk.css.map",
+    "static/css/main.5e69781a.chunk.css.map": "/fuzzylogic/static/css/main.5e69781a.chunk.css.map",
+    "static/js/2.02730113.chunk.js.LICENSE.txt": "/fuzzylogic/static/js/2.02730113.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.4c46f7e4.js",
+    "static/css/2.de424728.chunk.css",
+    "static/js/2.02730113.chunk.js",
+    "static/css/main.5e69781a.chunk.css",
+    "static/js/main.ababa6fa.chunk.js"
+  ]
+}
