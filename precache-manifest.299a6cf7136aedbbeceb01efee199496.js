@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "fa47407c8f6802f1140c61834026b3ac",
+    "revision": "8a6beb870e06bd5801d2119d859a61b2",
     "url": "/fuzzylogic/index.html"
   },
   {
-    "revision": "b3ff568d6569264eec92",
+    "revision": "bff2c0438b34a163a0b5",
     "url": "/fuzzylogic/static/css/main.10246592.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/fuzzylogic/static/js/2.7aad3d81.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "b3ff568d6569264eec92",
-    "url": "/fuzzylogic/static/js/main.bfef3029.chunk.js"
+    "revision": "bff2c0438b34a163a0b5",
+    "url": "/fuzzylogic/static/js/main.e3a35457.chunk.js"
   },
   {
     "revision": "63931bc6b1af4b5f64f0",
