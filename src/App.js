@@ -34,7 +34,7 @@ const App = () => {
 
   return (
     <div className="container App colors">
-      <h1>Yesili sec</h1>
+      <h1>Choose a green one</h1>
       {loading == 0 && (
         <div className="row">
           {color.row1.map((color, i) => {
@@ -81,6 +81,7 @@ const App = () => {
       )}
 
       {loading == 3 && (
+        <h2>Choose the greenest one</h2>
         <div className="row">
           <div
             className="col-sm-4"
@@ -101,6 +102,7 @@ const App = () => {
       )}
 
       {loading == 4 && (
+        <h2>This green greener than others</h2>
         <div className="row">
           <div
             className="col-sm-12"
