@@ -1,7 +1,7 @@
-import React, { useState, useEffect } from "react";
+import React, { useState } from "react";
 
-import "bootstrap/dist/css/bootstrap.min.css";
-import "./App.css";
+// import "bootstrap/dist/css/bootstrap.min.css";
+import "./App.scss";
 
 const App = () => {
   const [color, setColor] = useState({
@@ -35,7 +35,7 @@ const App = () => {
   return (
     <div className="container App colors">
       <h1>Choose a green one</h1>
-      {loading == 0 && (
+      {loading === 0 && (
         <div className="row">
           {color.row1.map((color, i) => {
             return (
@@ -50,7 +50,7 @@ const App = () => {
         </div>
       )}
 
-      {loading == 1 && (
+      {loading === 1 && (
         <div className="row">
           {color.row2.map((color, i) => {
             return (
@@ -65,7 +65,7 @@ const App = () => {
         </div>
       )}
 
-      {loading == 2 && (
+      {loading === 2 && (
         <div className="row">
           {color.row3.map((color, i) => {
             return (
@@ -80,9 +80,9 @@ const App = () => {
         </div>
       )}
 
-      {loading == 3 && (
+      {loading === 3 && (
         <div className="row">
-          <h2>Choose the greenest one</h2>
+          <h2 className="col-sm-12">Choose the greenest one</h2>
           <div
             className="col-sm-4"
             onClick={(e) => lastChoise(choise.blue)}
@@ -101,7 +101,7 @@ const App = () => {
         </div>
       )}
 
-      {loading == 4 && (
+      {loading === 4 && (
         <div className="row">
           <h2>This green greener than others</h2>
           <div
