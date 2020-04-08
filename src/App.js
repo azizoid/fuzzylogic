@@ -81,8 +81,8 @@ const App = () => {
       )}
 
       {loading == 3 && (
-        <h2>Choose the greenest one</h2>
         <div className="row">
+          <h2>Choose the greenest one</h2>
           <div
             className="col-sm-4"
             onClick={(e) => lastChoise(choise.blue)}
@@ -102,8 +102,8 @@ const App = () => {
       )}
 
       {loading == 4 && (
-        <h2>This green greener than others</h2>
         <div className="row">
+          <h2>This green greener than others</h2>
           <div
             className="col-sm-12"
             style={{ backgroundColor: "#" + final }}
